@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Practice Project</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero text-center text-white">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Bootstrap 5 Practice Project</h1>
+      <p class="lead">A beginner project for practicing Bootstrap layout, components, and utilities.</p>
+      <a href="#topics" class="btn btn-light mt-3">View My Practice</a>
+    </div>
+  </section>
+
+  <!-- Topics Section -->
+  <section id="topics" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What I Practiced</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Grid System</h5>
+              <p class="card-text">I practiced containers, rows, columns, and responsive layouts.</p>
+              <code>col-md-6</code>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Images</h5>
+              <p class="card-text">I learned how images resize on different screen sizes.</p>
+              <code>img-fluid rounded</code>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Buttons</h5>
+              <p class="card-text">I practiced Bootstrap button colors and full-width buttons.</p>
+              <button class="btn btn-primary w-100">Example Button</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Dropdown</h5>
+              <p class="card-text">I created a Bootstrap 5 dropdown using data-bs-toggle.</p>
+
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                  Class
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English Class</a></li>
+                  <li><a class="dropdown-item" href="#">Italian Class</a></li>
+                  <li><a class="dropdown-item" href="#">German Class</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Tables</h5>
+              <p class="card-text">I practiced Bootstrap table styles.</p>
+
+              <table class="table table-primary table-bordered">           <!--when we want to put line betwwen tables : "class= table" & for blak table = "table-dark" -->
+                     <thead>
+                          <tr>
+                             <th> Firstname</th>
+                             <th>Lastname</th>
+                             <th>Email</th>
+                          </tr>
+                     </thead>
+                     <tr class="table-danger">    <!--table-success = green & table-danger = red-->
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                     </tr>
+                     <tr class="table-success">
+                        <td>Shirin</td>
+                        <td>Mohajeri</td>
+                        <td>shirin@example.com</td>
+                     </tr>
+                  </table>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Input Groups</h5>
+              <p class="card-text">I practiced search boxes and input buttons.</p>
+
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search here">
+                <button class="btn btn-success">Search</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Section -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Responsive Image Example</h2>
+
+      <img 
+        class="img-fluid rounded-5 shadow"
+        src="https://raw.githubusercontent.com/shirinmohajeri/Bootstrap/refs/heads/main/Bootstrap2.jpg"
+        alt="Bootstrap practice image">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-4">
+    <p class="mb-0">Created by Shirin | Bootstrap 5 Practice Project</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

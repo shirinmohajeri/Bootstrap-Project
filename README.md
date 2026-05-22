@@ -1,27 +1,73 @@
 # Bootstrap-Project:
+
 # 🚀 Bootstrap 5 Practice Project
 
-A beginner-friendly Bootstrap 5 project created while learning responsive web design and Bootstrap components.
+A modern beginner-friendly Bootstrap 5 project built to practice responsive web design, Bootstrap components, and frontend layout systems.
 
 ---
 
-## 📚 About The Project
+## 🌐 Live Project Features
 
-This project was built to practice Bootstrap 5 fundamentals and improve frontend development skills.
+This project includes practical Bootstrap 5 examples such as:
 
-The webpage includes different Bootstrap components and responsive layouts such as:
+✨ Responsive Grid System  
+✨ Bootstrap Cards  
+✨ Responsive Images  
+✨ Bootstrap Tables  
+✨ Buttons & Utilities  
+✨ Dropdown Menu  
+✨ Input Groups  
+✨ Hero Section  
+✨ Responsive Layout Design  
 
-- Grid System
-- Responsive Columns
-- Column Offsets
-- Responsive Images
-- Rounded Images
-- Tables
-- Buttons
-- Dropdown Menu
-- Input Groups
-- Search Bar
-- Keyboard Tags
+---
+
+## 📸 Project Preview
+
+### 🖥 Hero Section
+A responsive hero banner with gradient background and call-to-action button.
+
+### 📦 Bootstrap Cards
+Used Bootstrap cards to organize different practice topics in a clean layout.
+
+### 🖼 Responsive Images
+Practiced responsive image design using:
+
+```html
+img-fluid
+rounded-5
+shadow
+```
+
+### 🔘 Buttons
+Different Bootstrap button styles:
+
+```html
+btn-primary
+btn-success
+btn-secondary
+```
+
+### 📂 Dropdown Menu
+Created a Bootstrap 5 dropdown menu using:
+
+```html
+data-bs-toggle="dropdown"
+```
+
+### 📊 Tables
+Styled responsive Bootstrap tables using:
+
+```html
+table
+table-bordered
+table-primary
+table-success
+table-danger
+```
+
+### 🔍 Input Groups
+Built search bars and input field components with Bootstrap input groups.
 
 ---
 
@@ -33,97 +79,6 @@ The webpage includes different Bootstrap components and responsive layouts such 
 
 ---
 
-## 💻 Bootstrap Components Practiced
-
-### ✅ Grid System
-
-Practiced responsive layouts using:
-
-```html
-container
-row
-col-sm
-col-md
-col-lg
-```
-
----
-
-### ✅ Responsive Images
-
-Learned how to create responsive images using:
-
-```html
-img-fluid
-```
-
-Also practiced:
-
-```html
-rounded
-rounded-5
-shadow
-float-end
-```
-
----
-
-### ✅ Tables
-
-Created Bootstrap tables using:
-
-```html
-table
-table-dark
-table-bordered
-table-success
-table-danger
-```
-
----
-
-### ✅ Buttons
-
-Practiced different Bootstrap button styles:
-
-```html
-btn-primary
-btn-success
-btn-danger
-btn-warning
-btn-info
-```
-
-Full-width buttons using:
-
-```html
-w-100
-```
-
----
-
-### ✅ Dropdown Menu
-
-Built a Bootstrap 5 dropdown menu.
-
-Important Bootstrap 5 syntax:
-
-```html
-data-bs-toggle="dropdown"
-```
-
----
-
-### ✅ Input Groups
-
-Practiced:
-
-- Currency input fields
-- Search bars
-- Input buttons
-
----
-
 ## 📁 Project Structure
 
 ```text
@@ -131,9 +86,34 @@ Bootstrap-Practice/
 │
 ├── index.html
 ├── style.css
-├── README.md
-└── Note.txt
+└── README.md
 ```
+
+---
+
+## 🎯 What I Learned
+
+Through this project, I practiced:
+
+- Responsive web design
+- Bootstrap layout system
+- Bootstrap utilities
+- Bootstrap components
+- UI structuring with cards and sections
+- Responsive images and spacing
+- Bootstrap 5 syntax updates
+
+---
+
+## 📚 Important Bootstrap 5 Changes
+
+Bootstrap 5 introduced new syntax changes:
+
+| Bootstrap 4 | Bootstrap 5 |
+|---|---|
+| `data-toggle` | `data-bs-toggle` |
+| `float-right` | `float-end` |
+| `btn-block` | `w-100` |
 
 ---
 
@@ -153,12 +133,12 @@ Bootstrap-Practice/
 
 ---
 
-## 🎯 Project Goal
+## 💡 Project Goal
 
-The goal of this project is to improve Bootstrap and responsive design skills through hands-on practice and real examples.
+The goal of this project is to strengthen my Bootstrap and frontend development skills by building responsive and interactive UI components.
 
 ---
 
-## 📌 Note
+## 👩‍💻 Author
 
-This project was created for learning and practicing Bootstrap 5 components and utilities.
+Created by **Shirin Mohajeri**
